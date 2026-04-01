@@ -2,11 +2,12 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Menu } from './menu/menu';
 import { SectionCenter } from './section-center/section-center';
+import { SectionCarrosel } from './section-carrosel/section-carrosel';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Menu,SectionCenter],
+  imports: [RouterOutlet,Menu,SectionCenter,SectionCarrosel],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

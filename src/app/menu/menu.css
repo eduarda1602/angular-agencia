@@ -1,3 +1,32 @@
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+#logo {
+    height: 32px;
+    width: 167px;
+    margin: 20px;
+
+}
+.shery {
+    color: #757575;
+}
+
+.caixa_img_logo {
+    height: 90px;
+    width: 140px;
+    padding: 15px;
+  ;
+
+}
+
 
 .menu {
     display: flex;
@@ -5,4 +34,20 @@
     align-items: center;
     justify-content: space-around;
 
+}
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn-login-in {
+    height: 44px;
+    width: 83.31px;
+    border-radius: 50px;
+    background-color: #EB662B;
+    color: #ffffff;
+    font-weight: lighter;
+    border: none;
+    font-size: 15px;
 }

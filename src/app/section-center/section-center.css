@@ -3,8 +3,40 @@
     width: 1320px;
     height: 293.38px;
 }
+
 .titulo-primario {
     font-weight: 700;
     font-size: 30px;
 }
 
+.conteiner-icones {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.caixa-icones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tituloo {
+    font-size: 16.72px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.texto-icone {
+    font-size: 14.88px;
+    font-weight: 400;
+}
+
+.estrura-titulo {
+    margin-bottom: 50px;
+}
+
+.bi {
+    font-size: 50px;
+    color: #EB662B;
+}

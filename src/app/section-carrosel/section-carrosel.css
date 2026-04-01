@@ -1,0 +1,33 @@
+.section-carrosel {
+    width: 1320px;
+    margin: auto;
+
+
+}
+
+.caixa-box-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+.trending {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.trend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Tours{
+    font-size: 13px;
+    font-weight: 400;
+}
