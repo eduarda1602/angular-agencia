@@ -40,3 +40,18 @@
     font-size: 50px;
     color: #EB662B;
 }
+
+.banner {
+    background-image: url(../../../public/assents/Section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 702.13px;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
