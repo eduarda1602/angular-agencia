@@ -1,0 +1,84 @@
+.banner {
+    background-image: url(/assents/banner/Section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 702.13px;
+    width: 1800px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.texto-banner {
+    font-size: 69.73px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.texto-banner2 {
+    font-size: 14.65px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-section {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 12px;
+}
+
+.quadrado {
+    border: 1px solid lightgrey;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.onde {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.quando {
+    display: flex;
+    flex-direction: row;
+}
+
+.tipo {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-pesquisa {
+    font-size: 13.67px;
+    color: #717171;
+}
+
+.titulo-pesquisa {
+    font-size: 15px;
+}
+
+.caixa-subtexto-banner {
+    padding: 10px;
+}
+
+.escolha {
+    margin: auto;
+    width: 1320px;
+    height: 293.38px;
+}

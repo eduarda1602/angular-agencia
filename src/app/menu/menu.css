@@ -48,10 +48,8 @@ ul {
 
 .caixa_img_logo{
     background-image: url("/assents/logo-1.svg fill.png ");
-    height: 90px;
-    width: 140px;
-    padding: 15px;
-    background-size: cover;
-    background-repeat: no-repeat;
+   height: 32px;
+   width: 167px;
+  
     
 }

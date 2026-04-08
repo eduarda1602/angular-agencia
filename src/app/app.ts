@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { Menu } from './menu/menu';
 import { SectionCenter } from './section-center/section-center';
 import { SectionCarrosel } from './section-carrosel/section-carrosel';
+import { Banner } from './banner/banner';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Menu,SectionCenter,SectionCarrosel],
+  imports: [RouterOutlet,Menu,SectionCenter,SectionCarrosel,Banner],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

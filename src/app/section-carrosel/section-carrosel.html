@@ -1,19 +1,25 @@
 <section class="section-carrosel">
-            <div class="carrosel">
-                <div class="caixa-box-titulo">
-                    <p class="box-titulo">Trending destinations</p>
-                    <p class="box-descriçao">See All</p>
+    <div class="carrosel">
+        <div class="caixa-box-titulo">
+            <p class="box-titulo">Trending destinations</p>
+            <p class="box-descriçao">See All</p>
 
-                </div>
+        </div>
 
-                <div class="trending">
-                    <div class="trend">
-                       
-                        <p class="cidades">Paris</p>
-                        <p class="Tours">100+ Tours</p>
-                    </div>
 
-                    <div class="trend">
+        <div class="trending">
+            @for (item of destinos; track item.localidade){
+            <div class="trend">
+                <img src="/assents/imgtrending/{{item.imagem}}" alt="">
+                <p class="cidades">{{item.localidade}}</p>
+                <p class="Tours">{{item.tours}}</p>
+            </div>
+            }
+        </div>
+
+
+
+        <!-- <div class="trend">
                         
                         <p class="cidades">Singapore</p>
                         <p class="Tours">300+ Tours</p>
@@ -53,12 +59,11 @@
                         
                         <p class="cidades">Cappadocia</p>
                         <p class="Tours">900+ Tours</p>
-                    </div>
+                    </div> -->
 
-                </div>
+    </div>
 
 
-            </div>
 
-        </section>
-        
+
+</section>
