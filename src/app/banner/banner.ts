@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './banner.html',
   styleUrl: './banner.css',
 })
-export class Banner {}
+export class Banner {
+  
+  
+}
